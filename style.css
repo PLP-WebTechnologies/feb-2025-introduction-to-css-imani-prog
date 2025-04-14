@@ -1,0 +1,42 @@
+/* Font from Google Fonts (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  margin: 20px;
+  padding: 10px;
+}
+
+/* ID Selector */
+#main-heading {
+  color: #1e90ff;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* Class Selector */
+.intro {
+  color: #333;
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+/* Element Selector */
+img {
+  width: 300px;
+  border: 5px solid #1e90ff;
+  padding: 5px;
+  margin: 10px 0;
+  display: block;
+}
+
+/* Another Class Selector */
+.content-box {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 30px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
